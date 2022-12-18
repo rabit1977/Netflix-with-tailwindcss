@@ -4,9 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)), url('header-image.png')",
+        hero: "linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url('header-image.png')",
       },
-      logo: 'netflixwebappsrcassetsimageslogo.png',
     },
   },
   plugins: [],

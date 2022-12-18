@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <div className='w-full h-screen py-4 px-3 bg-hero bg-cover bg-center'>
+    <div className='w-full  border-b-8 border-b-[#222] h-screen py-4 px-3 bg-hero bg-cover bg-center'>
       <nav className='flex items-center justify-between py-2.5'>
         <img className='w-36 cursor-pointer' src='logo.png' alt='' />
         <div>
