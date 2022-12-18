@@ -2,33 +2,79 @@ import React from 'react';
 
 export default function Faq() {
   return (
-    <div className='p-3 text-center text-sm text-white'>
+    <div className='w-full max-w-[750px] m-auto p-3 text-center text-sm text-white'>
       <h2 className='text-white/80 font-semibold tracking-wider text-3xl'>
         Frequently Asked Questions
       </h2>
-      <ul className='mt-14 w-full max-w-[750px]'>
+      <ul className='mt-8'>
         <li className='w-full p-1.5'>
-          <input type='radio' name='accordion' id='first' />
-          <label
-            className='relative flex items-center justify-between p-5 text-sm font-medium bg-[#303030] mb-0.5 cursor-pointer after:content-["+"]'
-            htmlFor='first'
-          >
-            What is Netflix?
+          <label className='peer relative flex flex-col  items-center justify-between p-5 text-sm font-medium bg-[#303030] cursor-pointer '>
+            {' '}
+            <input className='hidden peer' type='radio' name='accordion' />
+            <div className='w-full flex justify-between items-center'>
+              <p className=''>What is Netflix?</p>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                fill='none'
+                viewBox='0 0 24 24'
+                strokeWidth={1.5}
+                stroke='currentColor'
+                className='w-6 h-6'
+              >
+                <path
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  d='M12 4.5v15m7.5-7.5h-15'
+                />
+              </svg>
+            </div>
+            <div className='bg-[#303030] text-left px-5 overflow-hidden max-h-0 peer-checked:max-h-screen peer-checked:mt-4'>
+              <p>
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices.
+              </p>
+              <br />
+              <p>
+                You can watch as much as you want, whenever you want without a
+                single commercial – all for one low monthly price. There's
+                always something new to discover and new TV shows and movies are
+                added every week!
+              </p>
+            </div>
           </label>
-          <div>
-            <p>
-              Netflix is a streaming service that offers a wide variety of
-              award-winning TV shows, movies, anime, documentaries, and more on
-              thousands of internet-connected devices.
-            </p>
-            <p>
-              You can watch as much as you want, whenever you want without a
-              single commercial – all for one low monthly price. There's always
-              something new to discover and new TV shows and movies are added
-              every week!
-            </p>
-          </div>
         </li>
+        <li className='w-full p-1.5'>
+          <label className='peer relative flex flex-col  items-center justify-between p-5 text-sm font-medium bg-[#303030] mb-0.5 cursor-pointer '>
+            {' '}
+            <input className='hidden peer' type='radio' name='accordion' />
+            <div className='w-full pb-2 flex justify-between items-center'>
+              <p className=''>How much does Netflix cost?</p>
+              <svg
+                xmlns='http://www.w3.org/2000/svg'
+                fill='none'
+                viewBox='0 0 24 24'
+                strokeWidth={1.5}
+                stroke='currentColor'
+                className='w-6 h-6'
+              >
+                <path
+                  strokeLinecap='round'
+                  strokeLinejoin='round'
+                  d='M12 4.5v15m7.5-7.5h-15'
+                />
+              </svg>
+            </div>
+            <div className='bg-[#303030] text-left px-5 overflow-hidden max-h-0 peer-checked:max-h-screen peer-checked:mt-4'>
+              <p>
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+                streaming device, all for one fixed monthly fee. Plans range
+                from EUR7.99 to EUR11.99 a month. No extra costs, no contracts.
+              </p>
+            </div>
+          </label>
+        </li>
+
         <li>
           <input type='radio' name='accordion' id='first' />
           <label htmlFor='first'>How much does Netflix cost?</label>
