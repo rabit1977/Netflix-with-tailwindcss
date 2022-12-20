@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div className='max-w-3xl pt-12 px-10  m-auto pb-3  text-[#777]'>
-      <div className=''>
+    <div className=' max-w-6xl flex-col flex justify-center pt-12 px-10 m-auto pb-3  text-[#777]'>
+      <div className=' text-center'>
         <h2 className='text-lg font-normal mb-7'>
           Questions? call 000-111-222-333
         </h2>
       </div>
-      <div className='flex justify-between mb-5 gap-4'>
+      <div className='w-full grid sm:grid-cols-4 grid-cols-1 m-auto'>
         <div>
           <a className='block text-sm mb-2.5' href='#'>
             FAQ

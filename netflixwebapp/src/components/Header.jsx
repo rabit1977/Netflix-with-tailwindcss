@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <div className='w-full  border-b-8 border-b-[#222] h-screen py-4 px-3 bg-hero bg-cover bg-center'>
+    <div className='w-full  border-b-8 border-b-[#222] h-screen py-4 px-3 bg-hero bg-[0,0,0,.4] bg-cover bg-center'>
       <nav className='flex items-center justify-between py-2.5'>
         <img className='w-36 cursor-pointer' src='logo.png' alt='' />
         <div>
@@ -15,11 +15,13 @@ export default function Header() {
         </div>
       </nav>
       <div className='w-full text-white flex flex-col justify-center items-center h-screen -mt-20'>
-        <h1 className='text-6xl font-semibold max-w-2xl text-center'>
+        <h1 className='text-6xl font-semibold max-w-2xl text-center mb-4'>
           Unlimited movies, TV shows and more.
         </h1>
-        <h3 className='font-normal mb-5'>Watch anywhere. Cancel anytime</h3>
-        <p>
+        <h3 className='font-semibold text-3xl mb-5'>
+          Watch anywhere. Cancel anytime
+        </h3>
+        <p className='text-lg font-normal'>
           Ready to watch? Enter your email to create or restrart your
           membership.
         </p>
