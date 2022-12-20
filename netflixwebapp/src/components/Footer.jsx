@@ -2,13 +2,13 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div className=' max-w-6xl flex-col flex justify-center pt-12 px-10 m-auto pb-3  text-[#777]'>
-      <div className=' text-center'>
+    <div className=' max-w-6xl flex-col flex pt-12 px-10 m-auto pb-3  text-[#777]'>
+      <div className='text-center sm:text-left'>
         <h2 className='text-lg font-normal mb-7'>
           Questions? call 000-111-222-333
         </h2>
       </div>
-      <div className='w-full grid sm:grid-cols-4 grid-cols-1 m-auto'>
+      <div className=' grid sm:grid-cols-4 text-center sm:text-left grid-cols-1 place-content-between'>
         <div>
           <a className='block text-sm mb-2.5' href='#'>
             FAQ
@@ -62,6 +62,7 @@ export default function Footer() {
             Contact Us
           </a>
         </div>
+        <h2 className='mt-4'>Netflix USA</h2>
       </div>
     </div>
   );

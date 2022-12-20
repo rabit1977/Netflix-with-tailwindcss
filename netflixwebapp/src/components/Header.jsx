@@ -14,7 +14,7 @@ export default function Header() {
           </button>
         </div>
       </nav>
-      <div className='w-full text-white flex flex-col justify-center items-center h-screen -mt-20'>
+      <div className='w-full text-white flex flex-col justify-center items-center h-screen '>
         <h1 className='text-6xl font-semibold max-w-2xl text-center mb-4'>
           Unlimited movies, TV shows and more.
         </h1>

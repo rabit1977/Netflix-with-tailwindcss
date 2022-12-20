@@ -137,20 +137,22 @@ export default function Faq() {
             Ready to watch? Enter your email to create or restart your
             membership.
           </small>
-          <form className='w-full m-auto max-w-xl bg-white text-center rounded-md flex items-center outline-none mt-7 overflow-hidden'>
-            <input
-              className='flex-1 outline-none ml-5 text-slate-700'
-              type='email'
-              placeholder='Email address'
-              required
-            />
-            <button
-              className='bg-[#db0001]  text-white text-sm px-8 py-3 cursor-pointer outline-none '
-              type='submit'
-            >
-              Get Started
-            </button>
-          </form>
+          <div className='p-2 max-w-[98%] m-auto'>
+            <form className='w-full bg-white text-center rounded-md flex items-center outline-none mt-7 overflow-hidden'>
+              <input
+                className='flex-1 outline-none ml-5 text-slate-700'
+                type='email'
+                placeholder='Email address'
+                required
+              />
+              <button
+                className='bg-[#db0001]  text-white text-sm px-8 py-3 cursor-pointer outline-none'
+                type='submit'
+              >
+                Get Started
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </>
