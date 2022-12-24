@@ -1,2 +1,2 @@
 # link to netlify 
-<img src='public/NetflixImage.jpg' width='100%>
+<img src='NetflixImage.jpg' width='100%>
