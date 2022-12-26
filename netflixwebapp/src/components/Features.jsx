@@ -15,14 +15,22 @@ export default function Features() {
             </p>
           </div>
           <div className='basis-1/2 '>
-            <img className='w-11/12 m-auto' src='feature-1.png' alt='' />
+            <img
+              className='w-11/12 m-auto'
+              src='/src/assets/feature-1.png'
+              alt=''
+            />
           </div>
         </div>
       </div>
       <div className='border-b-8 border-b-[#222]  md:text-xl w-full  mx-auto text-center text-md'>
         <div className='flex flex-col md:6/12 w-5/6 md:flex-row gap-4 items-center py-16 m-auto '>
           <div className='basis-1/2 mb-5 order-2'>
-            <img className='w-11/12 m-auto' src='feature-2.png' alt='' />
+            <img
+              className='w-11/12 m-auto'
+              src='/src/assets/feature-2.png'
+              alt=''
+            />
           </div>
           <div className='basis-1/2 md:text-left order-1 md:order-2'>
             <h2 className='text-white lg:text-7l sm:text-4xl text-3xl font-semibold mb-3'>
@@ -46,14 +54,22 @@ export default function Features() {
             </p>
           </div>
           <div className='basis-1/2 '>
-            <img className='w-11/12 m-auto' src='feature-3.png' alt='' />
+            <img
+              className='w-11/12 m-auto'
+              src='/src/assets/feature-3.png'
+              alt=''
+            />
           </div>
         </div>
       </div>
       <div className='border-b-8 border-b-[#222]  md:text-xl w-full  mx-auto text-center text-md'>
         <div className='flex flex-col md:6/12 w-5/6 md:flex-row gap-4 items-center py-16 m-auto '>
           <div className='basis-1/2 mb-5 order-2'>
-            <img className='w-11/12 m-auto' src='feature-4.png' alt='' />
+            <img
+              className='w-11/12 m-auto'
+              src='/src/assets/feature-4.png'
+              alt=''
+            />
           </div>
           <div className='basis-1/2 md:text-left order-1 md:order-2'>
             <h2 className='text-white lg:text-7l sm:text-4xl text-3xl font-semibold mb-3'>

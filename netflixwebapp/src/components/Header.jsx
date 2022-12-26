@@ -7,12 +7,13 @@ export default function Header() {
       <nav className='flex items-center justify-between 2xl:px-10 px-7 py-2.5'>
         <img
           className='w-28 lg:w-36 2xl:w-40 cursor-pointer'
-          src='logo.png'
+          src='/src/assets/logo.png'
           alt=''
         />
         <div>
           <button className='outline-none bg-[#db0001] text-white text-xs rounded-md px-3 py-1.5 ml-2 cursor-pointer inline-flex items-center bg-transparent border'>
-            English <img className='w-2 ml-2 ' src='down-icon.png' alt='' />
+            English{' '}
+            <img className='w-2 ml-2 ' src='/src/assets/down-icon.png' alt='' />
           </button>
           <button className='outline-none bg-[#db0001] text-white text-xs rounded-md px-5 py-2 ml-2 cursor-pointer'>
             Sign In
